@@ -63,7 +63,7 @@ def def_eng():                                                       # Deformaç
     btn_calcular.pack()
 
     resultado_def = Label(window_def_eng, text = "")
-    resultado_def.place()
+    resultado_def.pack()
 
 def plot_tensao_deformacao():                                        # Gráfico tensão-deformação
     def gerar_grafico():
